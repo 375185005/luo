@@ -1,0 +1,558 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    font-family: "微软雅黑", Arial, Tahoma;
+    color: #666;
+}
+.width_1000{
+    width: 1000px;
+    margin: 0 auto;
+}
+ul,li,div,span,p{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    height: 121px;
+    width: 100%;
+    position: relative;
+}
+.header .header_top{
+   line-height: 30px;
+    height: 30px;
+    font-size: 12px;
+}
+.header_top_left{
+    float: left;
+    display: inline-block;
+}
+.header_top_left li{
+    float: left;
+    display: inline-block;
+    margin-right: 20px;
+}
+.header_top_left li a{
+    color: #666666;
+    text-decoration: none;
+}
+.header_top_left li a:hover{
+    color: maroon;
+}
+.header_top_right li{
+    float: right;
+    display: inline-block;
+    margin-right: 10px;
+}
+.header_top_right li a{
+    color: #666666;
+    text-decoration: none;
+}
+.header_top_right li a:hover{
+    color: maroon;
+}
+.header_bottom{
+    height: 91px;
+    background: url("../image/logoBg.png");
+}
+.header_bottom_left{
+    width: 125px;
+    display: inline-block;
+    height: 54px;
+    background: url("../image/logo1.png");
+    float: left;
+    margin-top: 15px;
+}
+.header_bottom_right{
+    float: right;
+    /*margin-top: 30px;*/
+    height: 91px;
+    /*text-align: center;*/
+    width: 200px;
+}
+/*.header_bottom_right span{*/
+    /*width: 34px;*/
+    /*height: 33px;*/
+    /*display: inline-block;*/
+    /*background: url("../image/phone.png")no-repeat;*/
+/*}*/
+.index_wrap{
+    width: 1000px;
+    margin: 20px auto;
+    /*float: left;*/
+}
+.index_wrap .nav_wrap{
+    list-style-type: none;
+    float: left;
+}
+.index_wrap .nav_wrap li{
+    float: left;
+}
+.index_wrap .nav_wrap li div{
+    display: inline-block;
+    text-align: center;
+    font-size: 18px;
+    color: #3b9be5;
+    background-color: #BDEBEE;
+    height: 41px;
+    line-height: 41px;
+    width: 150px;
+    float: left;
+}
+.noselected{
+    display: inline-block;
+    width: 16px;
+    height: 41px;
+    background: url("../image/noselected.png")no-repeat;
+    float: left;
+}
+.selectedhead{
+    display: inline-block;
+    width: 16px;
+    height: 41px;
+    float: left;
+    background: url("../image/selectedhead.png")no-repeat;
+}
+.selectedtail{
+    display: inline-block;
+    width: 16px;
+    height: 41px;
+    float: left;
+    background: url("../image/selectedtail.png")no-repeat;
+}
+.navtail{
+    display: inline-block;
+    width: 13px;
+    height: 41px;
+    float: left;
+    background: url("../image/navtail.png")no-repeat;
+}
+.brandSubmitW{
+    width: 960px;
+    margin: 20px auto;
+    padding: 20px;
+    border:1px solid #CCCCCC ;
+    float: left;
+}
+.brandSubmitW .brandInfoSub{
+    height: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    border-left: 5px solid blue;
+    padding-left: 20px;
+    line-height: 20px;
+    float: left;
+}
+.brandSubmitW .brandInformation{
+    margin-top: 30px;
+    float: left;
+}
+.brandSubmitW .brandInformation .brandInformation_left{
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    width: 150px;
+    background-color: #003eff;
+    color: white;
+    float: left;
+    /*border-radius: 2px;*/
+    cursor: pointer;
+}
+.brandSubmitW .brandInformation .brandInformation_right{
+    text-align: center;
+    height: 38px;
+    line-height: 38px;
+    width: 150px;
+    background-color: white;
+    color: white;
+    float: left;
+    /*border-radius: 2px;*/
+    color: black;
+    border: 1px solid #003eff;
+    cursor: pointer;
+}
+.brandSubmitW .brandInformation .brandInformation_right_right{
+    width: 645px;
+    height: 39px;
+    line-height: 39px;
+    border-bottom: 1px solid #003eff;
+    text-align: left;
+    padding-left: 10px;
+    float: left;
+    color: red;
+}
+.brandSubmitW .selectBoxW{
+    margin-top: 30px;
+    height: 35px;
+    font-size: 14px;
+    float: left;
+}
+.brandSubmitW .selectBoxW select{
+    float: left;
+    width: 302px;
+    height: 36px;
+    line-height: 36px;
+    background: url("../image/select.png");
+    border-radius: 5px;
+    text-indent: 5px;
+}
+.brandSubmitW .selectBoxW .selectBoxW_search{
+    float: left;
+    height: 36px;
+    line-height: 36px;
+    width: 100px;
+    margin-left: 20px;
+    color: #666;
+    background-color: gainsboro;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 5px;
+    border: 1px  solid grey;
+    cursor: pointer;
+}
+.brandSubmitW .sort{
+    margin-top: 30px;
+    float: left;
+    font-size: 16px;
+    color: #666666;
+}
+.brandSubmitW .sort .sort_nav span{
+    display: inline-block;
+   padding: 0 10px;
+    cursor: pointer;
+}
+.brandSubmitW .sort .sort_nav span:hover{
+    color: white;
+    background-color: #003eff;
+}
+ .content{
+    margin: 10px 0;
+    float: left;
+    list-style-type: none;
+    font-size: 14px;
+}
+.content li{
+    float: left;
+    margin-right: 30px;
+}
+.content li div{
+    width: 150px;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    border: 1px silver solid;
+
+}
+.content li div img{
+    vertical-align: middle;
+}
+.content li p{
+    width: 150px;
+    margin-top: 10px;
+    text-align: center;
+}
+.brandSubmitW .sort .addBtn{
+    margin-top: 30px;
+    float: left;
+    /*text-align: center;*/
+}
+.brandSubmitW .sort .addBtn .addBrandInfo{
+    width: 200px;
+    height: 50px;
+    line-height: 50px;
+    color: white;
+    font-size: 20px;
+    background: darkorange;
+    border: 1px solid darkorange;
+    border-radius: 5px;
+    margin-left: 400px;
+    cursor: pointer;
+}
+.brandSubmitW .search_result{
+    float: left;
+    margin-top: 50px;
+}
+.brandSubmitW .search_result p{
+    font-size: 18px;
+    color: #000000;
+    height: 30px;
+    line-height: 30px;
+}
+.brandSubmitW .search_result p img{
+    display: inline-block;
+    margin-left:15px ;
+    vertical-align: middle;
+}
+.brandSubmitW .search_result p span{
+    display: inline-block;
+    margin-left:5px ;
+    font-size: 16px;
+    color: red;
+    height: 30px;
+    line-height: 30px;
+}
+.brandSubmitW .search_result p button{
+    width: 150px;
+    height: 50px;
+    line-height: 50px;
+    color: white;
+    font-size: 20px;
+    background: darkorange;
+    border: 1px solid darkorange;
+    border-radius: 5px;
+    /*margin:10px 0 0 110px*/
+    cursor: pointer;
+}
+.brandSubmitW .result{
+    margin-top: 50px;
+    color: #666666;
+    /*border-bottom: 1px solid #BDEBEE;*/
+    font-size: 16px;
+    float: left;
+    width: 100%;
+}
+.brandSubmitW .result div{
+    width: 150px;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    border: 1px silver solid;
+    margin-top: 30px;
+    /*padding-bottom: 20px;*/
+}
+.brandSubmitW .result div img{
+    vertical-align: middle;
+}
+.ppp{
+    display: inline-block;
+    width: 100%;
+    text-indent: 50px;
+    font-size: 14px;
+    height: 40px;
+    line-height: 40px;
+    /*text-indent: 10px;*/
+    border-bottom: 1px silver solid;
+    padding-bottom: 5px;
+}
+.brandSubmitW .search{
+    margin-top: 30px;
+    float: left;
+}
+.brandSubmitW .search p{
+    font-size: 16px;
+}
+.brandSubmitW .add{
+    margin-top: 30px;
+    float: left;
+    font-size: 18px;
+    margin-left: 70px;
+}
+.brandSubmitW .add p{
+    margin-bottom: 20px;
+    /*display: inline-block;*/
+    /*width: 100%;*/
+}
+.brandSubmitW .add p input{
+    width: 300px;
+    height: 30px;
+    line-height: 30px;
+    text-indent: 10px;
+    color: black;
+    border-radius: 5px;
+    margin-left: 10px;
+    font-size: 12px;
+    border: 1px silver solid;
+}
+.brandSubmitW .add p span{
+    width: 22px;
+    height: 22px;
+    background: url("../image/processfinish.png");
+    display: inline-block;
+    margin-left: 10px;
+    vertical-align: middle;
+}
+.brandSubmitW .add i{
+    color: red;
+    font-size: 14px;
+    margin: 0px 0 10px 120px;
+    display: inline-block;
+    font-style: normal;
+}
+.ddd{
+    width: 150px;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    border: 1px silver solid;
+    display: inline-block;
+    vertical-align: top;
+}
+.ddd img{
+   vertical-align: middle;
+}
+.sss{
+    font-size: 14px;
+    padding: 10px 20px;
+    background: honeydew;
+    border: 1px solid #CCCCCC;
+    border-radius: 5px;
+    margin-left: 115px;
+    cursor: pointer;
+}
+.bbb{
+    font-size: 20px;
+    color: white;
+    margin-left: 115px;
+    background: darkorange;
+    border-radius: 10px;
+    padding: 10px 60px;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+.brandSubmitW .completeInfo{
+    float: left;
+    margin-top: 30px;
+    margin-left: 100px;
+}
+.width_800{
+    width: 800px;
+    margin: 0 auto;
+}
+.completeInfo .width_800 h3{
+    font-size: 20px;
+    font-weight:600;
+}
+td{
+    margin: 0;
+    /*padding: 0;*/
+    border: 0;
+}
+.first_line{
+    width: 150px;
+    height: 30px;
+    line-height: 30px;
+    color: black;
+    background: #BEEBEE;
+    text-align: center;
+    border: 1px solid #6dbfff;
+}
+table{
+    border-collapse: collapse;
+}
+.second_line{
+    border: 1px solid #6dbfff;
+    width: 150px;
+    height: 80px;
+    text-align: center;
+
+}
+.completeInfo p{
+
+}
+.completeInfo p input{
+    width: 300px;
+    height: 30px;
+    line-height: 30px;
+    text-indent: 10px;
+    color: black;
+    border-radius: 5px;
+    margin-left: 10px;
+    font-size: 12px;
+    border: 1px silver solid;
+}
+.completeInfo i{
+    font-style: normal;
+    font-size: 14px;
+    display: block;
+    margin: 5px 0;
+}
+.table{
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+.ccc{
+    padding:10px 76px;
+    background: #BDEBEE;
+    border: 1px solid #38B1B9;
+    color: black;
+}
+.eee{
+    width: 107px;
+    height: 59px;
+    border: 1px solid #38B1B9;
+    color: #666;
+}
+.chose{
+    margin-top: 30px;
+    width: 150px;
+    color: white;
+    height: 40px;
+    line-height:40px ;
+    text-align: center;
+    background-color: darkorange;
+    border: 1px solid orangered;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 20px;
+}
+.fff{
+    margin-top: 60px;
+    width: 180px;
+    color: black;
+    height: 40px;
+    line-height:40px ;
+    text-align: center;
+    background-color: lightgrey;
+    border: 1px solid #CCCCCC;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 20px;
+    display: inline-block;
+    margin-left: 160px;
+}
+.ggg{
+    margin-top: 60px;
+    width: 220px;
+    color: white;
+    height: 40px;
+    line-height:40px ;
+    text-align: center;
+    background-color: darkorange;
+    border: 1px solid orange;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 20px;
+    display: inline-block;
+    margin-left: 20px;
+}
+.ppp tr td{
+    padding: 5px 30px;
+    font-size: 14px;
+}
+.completeInfo ul{
+    list-style-type: none;
+}
+.completeInfo ul li{
+    float: left;
+    border: 1px solid #3b9be5;
+    text-align: center;
+    line-height: 30px;
+    height: 30px;
+}
+.xxx{
+    margin-top: 30px;
+    width: 220px;
+    color: white;
+    height: 50px;
+    line-height:50px ;
+    text-align: center;
+    background-color: darkorange;
+    border: 1px solid orange;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 22px;
+    display: inline-block;
+    margin-left:200px;
+    clear: both;
+}
